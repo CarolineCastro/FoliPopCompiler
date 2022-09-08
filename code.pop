@@ -1,0 +1,20 @@
+PRINT "Calcula média aritimética"
+PRINT " "
+LET a = 0
+WHILE a < 1 REPEAT
+    PRINT "Entre com a quantidade de valores a serem calculados: "
+    INPUT a
+ENDWHILE
+
+LET b = 0
+LET s = 0
+
+WHILE b < a REPEAT
+    PRINT "Entre com um valor: "
+    INPUT c
+    LET s = s + c
+    LET b = b + 1
+ENDWHILE
+
+PRINT "A média é: "
+PRINT s / a
