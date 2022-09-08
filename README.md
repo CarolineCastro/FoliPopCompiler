@@ -1,6 +1,7 @@
 Um compilador escrito em Python para a linguagem FoliPop que compilará em código C.
 
 O compilador funciona em 3 etapas: 
+
     1. LEXER (Lexing) - quebra o código de entrada em pequenos pedaços chamados de tokens.
     2. ANALISADOR (Parsing) - verifica se os tokens estão na ordem permitida pela linguagem.
     3. EMISSOR (Emitting) - produz o código C apropriado.
